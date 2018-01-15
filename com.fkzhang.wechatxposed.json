@@ -1,15 +1,15 @@
 {
-    "package": "org.swiftapps.swiftbackup",
+    "package": "com.fkzhang.wechatxposed",
     "recommended": true,
     "need_appops": false,
     "feature_affected": false,
     "authors": ["andrizmitnick"],
     "observers": [
-        {
+		{
             "description": "redirect_folder",
             "call_media_scan": false,
-            "source": "SwiftBackup",
-            "target": "Android/app_data/Swift Backup"
-        }
+            "source": "WechatXposed",
+            "target": "Android/app_data/WechatXposed"
+        },
     ]
 }
